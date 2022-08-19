@@ -1,1 +1,1 @@
-[Hit me](Suffer1ng.github.io)
+[Hit me](suffer1ng.github.io)
