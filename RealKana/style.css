@@ -44,3 +44,8 @@
     cursor: pointer;
 }
 
+body {
+    background-image: url("preview.gif");
+    background-repeat: repeat;
+}
+

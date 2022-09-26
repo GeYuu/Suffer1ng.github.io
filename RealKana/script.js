@@ -55,6 +55,8 @@ function game() {
     //when the user click the button, check if the input is correct
     document.getElementById("check").addEventListener("click", function() {
         let input = document.getElementById("answer").value;
+        //lowercase the input
+        input = input.toLowerCase();
         if (input == randomized[0].value) {
             //correct + 1
             correct++;
