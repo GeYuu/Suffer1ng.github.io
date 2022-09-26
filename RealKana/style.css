@@ -1,0 +1,46 @@
+/* add style to button class="options" */
+.options {
+    background-color: #69abce; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px; 
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* add style to mainbox class="mainbox" */
+/* center the box, both vertically and horizontally */
+.mainbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    padding: 40px;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+/* give id = check button style */
+#check {
+    background-color: #69abce; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    margin: 4px 2px;
+    cursor: pointer;
+}
+

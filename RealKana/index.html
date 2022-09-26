@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>RealKana</title>
+</head>
+
+<body>
+    <div class="selectionbox" id="selectionbox">
+        <button class="options" id="HiraganaBtn">Start Hiragana</button>
+        <!-- <button class="options">Katakana</button> -->
+    </div>
+
+    <!-- test box div -->
+    <div class="mainbox" id="mainbox">
+        <!-- test h1 -->
+        <h1 id="testh1">kanaholder</h1>
+        <p id="alert">Please start</p>
+        <p id="progress">game progress</p>
+
+    <!-- a box in the middle of the screen with the options to start hiragana or katakana -->
+    
+        <div class="questionbox" id="questionbox">
+            <h1 id="question"></h1>
+        </div>
+        <div class="answerbox" id="answerbox">
+            <input type="text" id="answer" placeholder="">
+        </div>
+        <div class="scorebox" id="scorebox">
+            <h1 id="score"></h1>
+        </div>
+        <div class="buttonbox" id="buttonbox">
+            <!-- <button class="buttons" id="next">Next</button> -->
+            <button class="buttons" id="check">Check</button>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
